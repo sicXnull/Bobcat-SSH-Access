@@ -1,2 +1,26 @@
 # Bobcat-SSH-Access
-Gain SSH Access to your Bobcat Miner
+
+Gain SSH Access to your Bobcat Miner.
+
+This "exploit" allows you to gain SSH Access to your Bobcat Miner. Something that is blocked from the factory.
+
+## How it Works
+
+A minimal operating system is booted via SD Card.
+
+Upon boot, a script (located at `/sbin/init`) does the following.
+
+1) Mounts the EMMC.
+2) Backs up the original files listed below.
+2) Copies a modified shadow file (password authentication) to /etc directory.
+3) Copies a modified sshd_config file to /etc/ssh.
+4) Sets immutable permissions so an OTA Update (if one were to ever happen) does not remove the "hack".
+
+## Install
+
+1) Using Balena etcher or dd, burn the correct image to SD card.
+2) Insert SD card into Bobcat. Power On.
+3) The script will run. On 29X, a blue light will start flashing when complete, On 285 it will not, just wait 90 seconds to be safe.
+
+That's it. Remove the SD card, and boot original OS. The SSH Username is admin and Password is bobcat
+
