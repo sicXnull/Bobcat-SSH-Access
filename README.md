@@ -4,6 +4,14 @@ Gain SSH Access to your Bobcat Miner.
 
 This "exploit" allows you to gain SSH Access to your Bobcat Miner. Something that is blocked from the factory.
 
+## Versions supported
+
+Bobcat 285 (Both Versions)
+
+Bobcat 290/295
+
+280 not available yet, simply because I don't have access to the original OS. Will add support when I come across one. 
+
 ## How it Works
 
 A minimal operating system is booted via SD Card.
