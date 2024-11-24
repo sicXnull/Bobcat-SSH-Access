@@ -6,9 +6,11 @@ This "exploit" allows you to gain SSH Access to your Bobcat Miner. Something tha
 
 ## Versions supported
 
-Bobcat 285 (Both Versions)
+- **Bobcat 285 (Both Versions)**  
+  [Download](https://github.com/sicXnull/Bobcat-SSH-Access/releases/download/1.0/Bobcat_SSH_285.img.xz)
 
-Bobcat 290/295
+- **Bobcat 290/295**  
+  [Download](https://github.com/sicXnull/Bobcat-SSH-Access/releases/download/1.0/Bobcat_SSH_29x.img.xz)
 
 280 not available yet, simply because I don't have access to the original OS. Will add support when I come across one. 
 
