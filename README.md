@@ -22,8 +22,8 @@ Upon boot, a script (located at `/sbin/init`) does the following.
 
 1) Mounts the EMMC.
 2) Backs up the original files listed below.
-2) Copies a modified shadow file (password authentication) to /etc directory.
-3) Copies a modified sshd_config file to /etc/ssh.
+2) Copies a modified `shadow` file (password authentication) to `/etc` directory.
+3) Copies a modified `sshd_config` file to `/etc/ssh`.
 4) Sets immutable permissions so an OTA Update (if one were to ever happen) does not remove the "hack".
 
 ## Install
