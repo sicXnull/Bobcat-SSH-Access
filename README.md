@@ -39,3 +39,19 @@ That's it. Remove the SD card, and boot original OS. The SSH Username is admin a
 **Warning - While you should never expose port 22 of your Bobcat, it's now a good time to double check. In the past, Bobcat support has advised users to open port 22 on their firewalls for remote support. Now that the password is so easy/guessable, anybody could gain access to your bobcat in the future. Closing the port (if it's open) will only allow local access.**
 
 **TLDR, don't open port 22, ever.**
+
+## Fixing "outdated" miners
+
+To fix your outdated miner to pull the latest miner firmware, modify the following file:
+
+`/etc/miner/miner_info.txt`
+
+Replace the contents with 
+
+```
+VER="gateway-latest"
+LSB="gateway-latest"
+```
+Reboot the gateway, then good to go. 
+
+
