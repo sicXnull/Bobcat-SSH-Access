@@ -36,3 +36,6 @@ Upon boot, a script (located at `/sbin/init`) does the following.
 
 That's it. Remove the SD card, and boot original OS. The SSH Username is admin and Password is bobcat
 
+**Warning - While you should never expose port 22 of your Bobcat, it's now a good time to double check. In the past, Bobcat support has advised users to open port 22 on their firewalls for remote support. Now that the password is so easy/guessable, anybody could gain access to your bobcat in the future. Closing the port (if it's open) will only allow local access.**
+
+**TLDR, don't open port 22, ever.**
