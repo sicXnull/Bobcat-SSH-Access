@@ -55,4 +55,12 @@ LSB="gateway-latest"
 Reboot the gateway, then good to go. 
 
 
-
+## Fixing "Broken" firmware from Bobber.com
+The firmware from bobber.com is broken and users who flash it will be met with an unusable miner
+Run the following command via ssh to fix (Change region to yours) - then reboot
+```
+echo "MINER=false
+GATEWAY_CONFIG=false
+OTADAEMON=false
+LORA_NA=US915" > /userdata/app.conf
+```
