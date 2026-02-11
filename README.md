@@ -8,13 +8,15 @@ This "exploit" allows you to gain SSH Access to your Bobcat Miner. Something tha
 
 To identify your Bobcat version, check the sticker on the bottom of the device. The serial number will start with 28/285/290 or 295
 
-- **Bobcat 285 (Both Versions)**  
+- **Bobcat 280**  
+  [Download](https://github.com/sicXnull/Bobcat-SSH-Access/releases/download/1.0/Bobcat_SSH_280.img.xz)
+
+- **Bobcat 285**  
   [Download](https://github.com/sicXnull/Bobcat-SSH-Access/releases/download/1.0/Bobcat_SSH_285.img.xz)
 
 - **Bobcat 290/295**  
   [Download](https://github.com/sicXnull/Bobcat-SSH-Access/releases/download/1.0/Bobcat_SSH_29x.img.xz)
 
-280 not available yet, simply because I don't have access to the original OS. Will add support when I come across one. 
 
 ## How it Works
 
